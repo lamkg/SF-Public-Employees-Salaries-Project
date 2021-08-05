@@ -1,0 +1,25 @@
+---
+title: "San Francisco Public Employee Salaries"
+author: Kevin 
+date: 
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+library(tidyverse)
+```
+Import the library that I will be using. 
+
+```{r}
+glimpse(sf_salaries)
+```
+
+Use glimpse to see the size of the data frame. Now I see that there are 312,882 rows and 9 columns. This means that deleting rows if there is missing data will be acceptable since the sample size is so large. 
+
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
